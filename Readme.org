@@ -1,0 +1,12 @@
+* TrackPUID
+  MTD TRD studies on track to primary vertex association with BDTs.
+
+** Run 
+   - localy:
+   =python train_track_puid.py --inp-dir INPUT --inp-file DATASET.hd5 --out-dir OUTPUT=
+   - on GPUs with slurm:
+   =sbatch train_track_puid.sh=
+
+*** Baysian optimization
+    append =--bo= to the command line reported above.
+
